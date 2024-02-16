@@ -1,8 +1,7 @@
 <?php
-    $n = 5;
-    $r = 3;
-    for ($i = 0; $i != 10; $i++){
-        $n = $n + $r;
-        echo $n, ', ';
+    $a = readline("Diga um número que direi os antecessores até 0: ");
+    
+    while ($a > 1){
+        $a = $a - 1;
+        echo $a, ', ';
     }
-?> 
