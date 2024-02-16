@@ -1,8 +1,10 @@
 <?php
-    $i = -1;
-    while ($i < 19){
-        $i = $i + 2;
-        echo "$i, ";
+    for ($i = 0; $i = 10; $i++){
+        $a = readline('Escreva um Número inteiro: ');
+        if($a >= 0){
+            echo 'Número positivo.'. "\n";
+        }
+        else {
+            echo 'Número negativo.'. "\n";
+        }
     }
-    echo "\n"
-?>
