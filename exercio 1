@@ -1,5 +1,5 @@
 <?php
-    for ($i = 0; $i = 10; $i++){
+    for ($i = 0; $i < 10; $i++){
         $a = readline('Escreva um Número inteiro: ');
         if($a >= 0){
             echo 'Número positivo.'. "\n";
